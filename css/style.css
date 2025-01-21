@@ -1,0 +1,68 @@
+* {
+    text-decoration: none !important; 
+}
+header {
+    
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.856),rgba(5, 4, 24, 0.829)) , url(../images/bg-hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar-brand {
+    color: #FEA116;
+    font-weight: bold;
+}
+.color {
+    color: #FEA116;
+}
+footer {
+    background-color: #0F172B;
+    
+}
+.actives {
+    color: #cc7a00 !important;
+}
+.custombtn {
+    padding: 10px 25px; 
+    background-color: #FEA116;
+    transition: 0.5s;
+    border-radius: 8px !important;
+
+}
+.custombtn:hover {
+    background-color: #8b601e;
+}
+
+.active {
+    color: white !important;
+    font-weight: 400;
+    transition: 0.4s !important;
+}
+.active:hover {
+    color: #FEA116 !important;
+}
+.backtotop {
+    border: none;
+    position: fixed;
+    outline: none;
+    color: white;
+    right: 20px;
+    padding: 20px 20px;
+    bottom: 20px;
+    background-color: #fea116c4;
+}
+.relative {
+    position: relative;
+    
+}
+.dd {
+    text-align: center;
+    border: 1px solid #cc7a00;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.d {
+    border-right: 1px solid rgba(226, 226, 226, 0.219) ;
+    padding-right: 20px;
+}
